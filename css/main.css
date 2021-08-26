@@ -267,3 +267,150 @@ section {
     margin-bottom: 30px; }
     .testimonial .carousel-indicators .carousel-btn {
       background-color: #ff817e; }
+
+.team__section-heading {
+  margin-bottom: 70px; }
+  .team__section-heading__sec-title {
+    color: #1e2528;
+    font-weight: 800;
+    margin-bottom: 32px; }
+  .team__section-heading__desc {
+    color: #888;
+    margin-bottom: 0; }
+
+.team__single-memb {
+  margin-bottom: 30px; }
+  .team__single-memb > img {
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%; }
+  .team__single-memb__memb-info {
+    background-color: #fff;
+    box-shadow: 0 5px 20px #f0f0f0;
+    cursor: pointer;
+    padding-top: 20px 15px; }
+    .team__single-memb__memb-info:hover ul {
+      visibility: visible; }
+    .team__single-memb__memb-info h6 {
+      color: #263a41;
+      font-size: 22px;
+      margin-bottom: 0; }
+    .team__single-memb__memb-info span {
+      display: block;
+      margin-bottom: 15px; }
+    .team__single-memb__memb-info--memb-social {
+      padding-bottom: 15px;
+      visibility: hidden; }
+      .team__single-memb__memb-info--memb-social li {
+        display: inline-block; }
+        .team__single-memb__memb-info--memb-social li:not(:last-child) {
+          margin-right: 10px; }
+        .team__single-memb__memb-info--memb-social li a {
+          background-size: cover;
+          display: block;
+          height: 40px;
+          text-indent: -9999px;
+          transition: 0.3s;
+          width: 40px; }
+          .team__single-memb__memb-info--memb-social li a.fb {
+            background-image: url("../images/social/facebook.png"); }
+          .team__single-memb__memb-info--memb-social li a.in {
+            background-image: url("../images/social/instagram.png"); }
+          .team__single-memb__memb-info--memb-social li a.tw {
+            background-image: url("../images/social/twitter.png"); }
+          .team__single-memb__memb-info--memb-social li a.yt {
+            background-image: url("../images/social/youtube.png"); }
+          .team__single-memb__memb-info--memb-social li a:hover {
+            opacity: .8; }
+
+.appointment {
+  background-color: #fff9f8;
+  display: flex;
+  justify-content: space-around; }
+  .appointment__img {
+    display: none; }
+  .appointment__appointment-form--input-field {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #d4d3d3;
+    color: #999;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%; }
+  .appointment__appointment-form__btn {
+    background-color: #ff817e;
+    border: 1px solid #ff817e;
+    border-radius: 50px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 600;
+    margin: 0 auto; }
+    .appointment__appointment-form__btn:hover {
+      background-color: #fff;
+      border-color: #ff817e;
+      color: #ff817e;
+      text-decoration: none; }
+
+@media screen and (min-width: 1200px) {
+  .appointment__img {
+    display: block; }
+  .appointment .col-md-6 {
+    padding-left: 0; } }
+
+.main-footer {
+  background-color: #fff9f8;
+  margin-top: 50px;
+  padding: 80px 0 60px; }
+  .main-footer__nav {
+    display: none; }
+  .main-footer__social {
+    margin: 30px 0; }
+    .main-footer__social li {
+      display: inline-block; }
+      .main-footer__social li:not(:last-child) {
+        margin-right: 10px; }
+      .main-footer__social li a {
+        background-size: cover;
+        display: block;
+        height: 40px;
+        text-indent: -9999px;
+        transition: 0.3s;
+        width: 40px; }
+        .main-footer__social li a.fb {
+          background-image: url("../images/social/facebook.png"); }
+        .main-footer__social li a.tw {
+          background-image: url("../images/social/twitter.png"); }
+        .main-footer__social li a.yt {
+          background-image: url("../images/social/youtube.png"); }
+        .main-footer__social li a.in {
+          background-image: url("../images/social/instagram.png"); }
+        .main-footer__social li a:hover {
+          opacity: .8; }
+  .main-footer__copyright {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 0; }
+    .main-footer__copyright a {
+      color: #ff817e; }
+
+@media screen and (min-width: 768px) {
+  .main-footer__nav {
+    display: block;
+    margin-top: 30px; }
+    .main-footer__nav li {
+      display: inline-block; }
+      .main-footer__nav li:not(:last-child) {
+        margin-right: 10px; }
+      .main-footer__nav li a {
+        color: #263a41;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0 20px;
+        text-transform: uppercase; } }

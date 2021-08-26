@@ -15,3 +15,12 @@
   text-decoration: $text-decoration;
   text-transform: $text-transform;
 }
+
+@mixin socnet($bg-size, $display, $height, $text-indent, $transition, $width) {
+  background-size: $bg-size;
+  display: $display;
+  height: $height;
+  text-indent: $text-indent;
+  transition: $transition;
+  width: $width;
+}
